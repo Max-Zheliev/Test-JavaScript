@@ -1,0 +1,34 @@
+
+
+@media (max-width: 768px) {
+
+    ul {
+        max-height: 150px; /* Уменьшаем высоту списка */
+    }}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .input-button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .list-section {
+        min-height: 134px;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    ul {
+        max-height: 250px;
+    }
+
+    button {
+        width: 100%;
+    }}
